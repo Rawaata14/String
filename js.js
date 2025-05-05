@@ -85,8 +85,14 @@
 // console.log(str.lastIndexOf('cd')); //9
 // console.log(str.lastIndexOf('cd', 8)); //6
 
-//Task#14
+// //Task#14
+// const str = 'abcde';
+// console.log(str.startsWith('abc')); //true
+// console.log(str.startsWith('xxx')); //false
+// console.log(str.startsWith('bc', 1)); //true
+
+//Task#15
 const str = 'abcde';
-console.log(str.startsWith('abc')); //true
-console.log(str.startsWith('xxx')); //false
-console.log(str.startsWith('bc', 1)); //true
+console.log(str.endsWith('cde')); //true
+console.log(str.endsWith('xxx')); //false
+console.log(str.endsWith('bc', 3)); //true
