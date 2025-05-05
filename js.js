@@ -18,11 +18,15 @@
 // console.log("char at last possition is " + sentence.charAt(srtLength - 1));
 // console.log("char before last char is " + sentence.charAt(srtLength - 2));
 
-//Task#4
-const str = 'abcde';
-let newStr = "";
-for (let i = str.length - 1; i >= 0; i--) {
-    newStr += str.charAt(i);
-}
-console.log("old string: " + str);
-console.log("new string: " + newStr);
+// //Task#4
+// const str = 'abcde';
+// let newStr = "";
+// for (let i = str.length - 1; i >= 0; i--) {
+//     newStr += str.charAt(i);
+// }
+// console.log("old string: " + str);
+// console.log("new string: " + newStr);
+
+//Task#5
+const str = "js";
+console.log(str.toUpperCase()); 
