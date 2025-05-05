@@ -27,6 +27,12 @@
 // console.log("old string: " + str);
 // console.log("new string: " + newStr);
 
-//Task#5
-const str = "js";
-console.log(str.toUpperCase()); 
+// //Task#5
+// const str = "js";
+// console.log(str.toUpperCase()); 
+
+//Task#6
+const str = 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+let sentence = prompt("Enter a sentence: ");
+let res = str.includes(sentence);
+console.log(res);
