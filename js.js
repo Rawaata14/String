@@ -37,10 +37,16 @@
 // let res = str.includes(sentence);
 // console.log(res);
 
-//Task#7
-const No = '-';
-let str = '1-2-3-4-5';
-while (str.includes(No)) {
-    str = str.replace(No, '.');
-}
-console.log(str);
+// //Task#7
+// const No = '-';
+// let str = '1-2-3-4-5';
+// while (str.includes(No)) {
+//     str = str.replace(No, '.');
+// }
+// console.log(str);
+
+//Task#8
+const str = "1-2-3-4-5";
+const newStr = str.replaceAll("-", ".");
+
+console.log(newStr);  
