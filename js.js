@@ -55,13 +55,20 @@
 // const str = 'sdfwe';
 // console.log(str.substring(4, 2)); // fw
 
-//Task#10
-const str = "I'm learning javascript!";
-console.log(str.slice(4, 12)); //learning
-console.log(str.slice(13)); //javascript!
+// //Task#10
+// const str = "I'm learning javascript!";
+// console.log(str.slice(4, 12)); //learning
+// console.log(str.slice(13)); //javascript!
 
-console.log(str.substring(4, 12)); //learning
-console.log(str.substring(13)); //javascript!
+// console.log(str.substring(4, 12)); //learning
+// console.log(str.substring(13)); //javascript!
 
-console.log(str.substr(4, 8)); //learning
-console.log(str.substr(13)); //javascript!
+// console.log(str.substr(4, 8)); //learning
+// console.log(str.substr(13)); //javascript!
+
+//Task#11
+const str = 'http://www.notion.so/String-820cf1e906884d8fb9c02236fe1c6dcb/'
+if (str.indexOf('http://') == 0)
+    console.log("start with http://");
+else
+    console.log("Not start with http://");
