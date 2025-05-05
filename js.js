@@ -11,9 +11,18 @@
 // let answer = prompt("Enter a number to get the char at this location: ");
 // console.log("char #" + answer + " is " + str.charAt(answer));
 
-//Task#3
-let sentence = prompt("Enter a sentence: ");
-let srtLength = sentence.length;
-console.log("The sentence is: " + sentence);
-console.log("char at last possition is " + sentence.charAt(srtLength - 1));
-console.log("char before last char is " + sentence.charAt(srtLength - 2));
+// //Task#3
+// let sentence = prompt("Enter a sentence: ");
+// let srtLength = sentence.length;
+// console.log("The sentence is: " + sentence);
+// console.log("char at last possition is " + sentence.charAt(srtLength - 1));
+// console.log("char before last char is " + sentence.charAt(srtLength - 2));
+
+//Task#4
+const str = 'abcde';
+let newStr = "";
+for (let i = str.length - 1; i >= 0; i--) {
+    newStr += str.charAt(i);
+}
+console.log("old string: " + str);
+console.log("new string: " + newStr);
