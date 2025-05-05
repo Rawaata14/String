@@ -45,8 +45,12 @@
 // }
 // console.log(str);
 
-//Task#8
-const str = "1-2-3-4-5";
-const newStr = str.replaceAll("-", ".");
+// //Task#8
+// const str = "1-2-3-4-5";
+// const newStr = str.replaceAll("-", ".");
 
-console.log(newStr);  
+// console.log(newStr); 
+
+//Task#9
+const str = 'sdfwe';
+console.log(str.substring(4, 2)); // fw
