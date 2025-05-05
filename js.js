@@ -31,8 +31,16 @@
 // const str = "js";
 // console.log(str.toUpperCase()); 
 
-//Task#6
-const str = 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
-let sentence = prompt("Enter a sentence: ");
-let res = str.includes(sentence);
-console.log(res);
+// //Task#6
+// const str = 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+// let sentence = prompt("Enter a sentence: ");
+// let res = str.includes(sentence);
+// console.log(res);
+
+//Task#7
+const No = '-';
+let str = '1-2-3-4-5';
+while (str.includes(No)) {
+    str = str.replace(No, '.');
+}
+console.log(str);
