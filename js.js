@@ -81,4 +81,6 @@
 //     console.log("Not end with .html");
 
 //Task#13
-
+const str = "ab cd cd cd ef";
+console.log(str.lastIndexOf('cd')); //9
+console.log(str.lastIndexOf('cd', 8)); //6
