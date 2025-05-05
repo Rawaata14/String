@@ -66,9 +66,19 @@
 // console.log(str.substr(4, 8)); //learning
 // console.log(str.substr(13)); //javascript!
 
-//Task#11
-const str = 'http://www.notion.so/String-820cf1e906884d8fb9c02236fe1c6dcb/'
-if (str.indexOf('http://') == 0)
-    console.log("start with http://");
-else
-    console.log("Not start with http://");
+// //Task#11
+// const str = 'http://www.notion.so/String-820cf1e906884d8fb9c02236fe1c6dcb/'
+// if (str.indexOf('http://') == 0)
+//     console.log("start with http://");
+// else
+//     console.log("Not start with http://");
+
+// //Task#12
+// const str = 'https://www.notion.html'
+// if (str.indexOf(".html", 0) == str.length - 5)
+//     console.log("ends with .html");
+// else
+//     console.log("Not end with .html");
+
+//Task#13
+
