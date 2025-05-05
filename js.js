@@ -91,8 +91,15 @@
 // console.log(str.startsWith('xxx')); //false
 // console.log(str.startsWith('bc', 1)); //true
 
-//Task#15
-const str = 'abcde';
-console.log(str.endsWith('cde')); //true
-console.log(str.endsWith('xxx')); //false
-console.log(str.endsWith('bc', 3)); //true
+// //Task#15
+// const str = 'abcde';
+// console.log(str.endsWith('cde')); //true
+// console.log(str.endsWith('xxx')); //false
+// console.log(str.endsWith('bc', 3)); //true
+
+//Task#16
+let str = 'ab-cd-ef';
+console.log(str.split('-')); //["ab","cd","ef"]
+console.log(str.split('-', 2)); //["ab","cd"]
+console.log(str.split('')); //['a', 'b', '-', 'c', 'd', '-', 'e', 'f']
+console.log(str.split('', 3)); //['a', 'b', '-']
