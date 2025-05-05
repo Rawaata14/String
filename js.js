@@ -80,7 +80,13 @@
 // else
 //     console.log("Not end with .html");
 
-//Task#13
-const str = "ab cd cd cd ef";
-console.log(str.lastIndexOf('cd')); //9
-console.log(str.lastIndexOf('cd', 8)); //6
+// //Task#13
+// const str = "ab cd cd cd ef";
+// console.log(str.lastIndexOf('cd')); //9
+// console.log(str.lastIndexOf('cd', 8)); //6
+
+//Task#14
+const str = 'abcde';
+console.log(str.startsWith('abc')); //true
+console.log(str.startsWith('xxx')); //false
+console.log(str.startsWith('bc', 1)); //true
